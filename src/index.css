@@ -1,0 +1,64 @@
+.bg-blue{
+    background-color: #2C3E50;
+}
+.blue{
+    color: #2C3E50;
+}
+.bg-dark-blue{
+    background-color: #17212A;
+}
+.dark-blue{
+    color: #17212A;
+}
+.bg-mint{
+    background-color: #1ABC9C;
+}
+.vh-90{
+    min-height: 90vh;
+}
+.vh-70{
+    min-height: 70vh;
+}
+.avater{
+    width: 250px;
+}
+.line{
+    width: 90px;
+    height: 5px;
+}
+.mycard .inner{
+    .layer{
+         background-color: #1ab99ecb;
+         opacity: 0;
+    }
+    &:hover .layer{
+        opacity: 1;
+    }
+}
+.modal{
+    background-color: #86dbfeb1;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn:hover {
+background-color: #1ABC9C ;
+color: white;
+}
+
+.nav-link.active{
+    background-color: #1ABC9C;
+    border-radius: 10px;
+}
+/* footer  */
+.upper-footer li i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
